@@ -1,0 +1,45 @@
+/* 
+ * Everything in here can be changed, 
+ * except the format of the card! 
+ * 
+ * Card-Format: 910px * 590px
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  /* mimics a quartet card game card size */
+  width: 430px;
+  height: 665px;
+
+  /* centering it */
+  margin: 10px auto;
+
+  /* background-color just here to make the card visible, can be changed */
+  background-image: radial-gradient(circle, #4a8de5 3em, #d9e5fa, #754fef, #efab83);
+
+  /* makes the appearance look more like a card, up to you to change */
+  border-radius: 14px;
+}
+.header {
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  width: 100%;
+  padding: 0.3em 0.5em 0.2em 0.5em;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.topRight {
+  text-align: right;
+  position: relative;
+  bottom: 18px;
+}
+
+.title-image {
+  width: 40%;
+  margin: 0px auto;
+}
