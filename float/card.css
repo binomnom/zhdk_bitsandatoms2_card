@@ -62,7 +62,8 @@ em {
 .left {
   float: left;
 }
-.vertical-text{
+
+.vertical-text {
   writing-mode: sideways-lr;
   height: 100%;
 }
