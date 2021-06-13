@@ -40,7 +40,5 @@ image.onclick = function () {
             } else {
                 alert("cat is liquid. cat is white. cat is..?")
             }
-            break;
-        case 3:
     }
 }

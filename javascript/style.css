@@ -94,13 +94,6 @@ body {
 
 .title-image {
     max-width: 100%;
-    background-image: url("./assets/cat.png");
-    box-shadow: inset 0.1em 0.15em 0.5em #401f9c;
-}
-
-.title-image .win{
-    max-width: 100%;
-    background-image: url("./assets/win.jpg");
     box-shadow: inset 0.1em 0.15em 0.5em #401f9c;
 }
 
